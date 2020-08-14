@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/bn_pending_orders"
+        android:orderInCategory="100"
+        android:title="@string/pending_order"
+        android:icon="@drawable/ic_orders"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/bn_in_kitchen_orders"
+        android:orderInCategory="100"
+        android:title="@string/in_kitchen_order"
+        android:icon="@drawable/ic_orders"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/bn_ready_for_pickup_orders"
+        android:orderInCategory="100"
+        android:title="@string/ready_for_pickup_order"
+        android:icon="@drawable/ic_orders"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/bn_completed_orders"
+        android:orderInCategory="100"
+        android:title="@string/completed_order"
+        android:icon="@drawable/ic_orders"
+        app:showAsAction="never"/>
+
+</menu>

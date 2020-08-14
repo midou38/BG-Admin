@@ -1,0 +1,140 @@
+<resources>
+    <string name="app_name" translatable="false">Cayman FoodHub
+        Admin</string>
+    <string name="login_app_title">MLR Admin</string>
+    <string name="copyright">Copyright ©2020. All rights reserved
+        .</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="completed_order">Completed</string>
+    <string name="ready_for_pickup_order">Ready for pickup</string>
+    <string name="in_kitchen_order">In Kitchen</string>
+    <string name="pending_order">Pending</string>
+    <string name="delivery_status_assigned">Delivery Partner Assigned</string>
+    <string name="update_status">Update Status</string>
+    <string name="kitchen_ticket">Kitchen Ticket</string>
+    <string name="print_check">Print Check</string>
+    <string name="order_status">Order Status</string>
+    <string name="order_type">Order Type</string>
+    <string name="order_type_restaurant">Restaurant</string>
+    <string name="order_type_take_away">Take Away</string>
+    <string name="order_type_delivery">Delivery</string>
+    <string name="order_number">Order Number</string>
+    <string name="restaurant_order">Restaurant Order</string>
+    <string name="order_type_ta_dl">Take Away \u0026 Delivery</string>
+
+    <string name="pending_tab">Pending</string>
+    <string name="in_kitchen_tab">In-Kitchen</string>
+    <string name="ready_for_pickup_tab">Pickup</string>
+    <string name="completed_tab">Completed</string>
+    <string name="no_record">No order(s) found.</string>
+    //drawer menu
+    <string name="dashboard_menu">Dashboard</string>
+    <string name="order_history_menu">Orders History</string>
+    <string name="order_summary_menu">Orders Summary</string>
+    <string name="search_orders_menu">Search Orders</string>
+    <string name="change_password_menu">Change Password</string>
+    <string name="settings_menu">Settings</string>
+    //drawer menu
+
+    <string-array name="status_array">
+        <item>Pending</item>
+        <item>In-Kitchen</item>
+        <item>Ready For Pickup</item>
+        <item>Completed</item>
+    </string-array>
+
+    <string name="print_tsp_3_inch">TSP 3 Inch</string>
+    <string name="print_2_inch">2 Inch</string>
+    <string name="print_3_inch">3 Inch</string>
+
+    <string-array name="print_size_array">
+        <item>@string/print_tsp_3_inch</item>
+        <item>@string/print_3_inch</item>
+        <item>@string/print_2_inch</item>
+    </string-array>
+
+    <string name="delivery_charges_fixed">Fixed</string>
+    <string name="delivery_charges_bill">Percentage of Bill</string>
+    <string name="delivery_charges_free">Free</string>
+
+    <string-array name="delivery_charges">
+        <item>@string/delivery_charges_fixed</item>
+        <item>@string/delivery_charges_bill</item>
+        <item>@string/delivery_charges_free</item>
+    </string-array>
+
+    <string name="orderType_Both">Both</string>
+    <string name="orderType_Delivery">Delivery</string>
+    <string name="orderType_TakeAway">Take Away</string>
+
+    <string-array name="orderTypes">
+        <item>@string/orderType_Both</item>
+        <item>@string/orderType_Delivery</item>
+        <item>@string/orderType_TakeAway</item>
+    </string-array>
+
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="customer_mobile">Customer Mobile</string>
+    <string name="hyphen">-</string>
+    <string name="item_name">Item Name</string>
+    <string name="item_price">Item Price</string>
+    <string name="total_order_amount">Total Order Amount</string>
+    <string name="submit">SUBMIT</string>
+    <string name="cancel">CANCEL</string>
+    <string name="log_out_message">Are you sure you want to log out?</string>
+    <string name="order_info_title">Order Information</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="refresh_orders">Refresh Orders</string>
+    <string name="conncet_printer">Connect Printer</string>
+    <string name="shutdown_end_user">Shutdown End User</string>
+    <string name="shutdown_msg">Enable this to SHUTDOWN the End User App after updating the setting.</string>
+    <string name="enable_app_msg">End User App will be enabled after updating the setting.</string>
+    <string name="print_size">Print Size</string>
+    <string name="automatic_bill_printing">Automatic Bill Printing</string>
+    <string name="dashboard_refresh_time_in_seconds">Dashboard Refresh Time (In Seconds)</string>
+    <string name="order_ready_time_in_minutes">Order Ready Time (In Minutes)</string>
+    <string name="delivery_charges">Delivery Charges</string>
+    <string name="delivery_radius_mi">Delivery Radius (Mi)</string>
+    <string name="filter_orders">Filter Orders</string>
+    <string name="reset">Reset</string>
+    <string name="order_type_filter">Order Type Filter</string>
+    <string name="delivery_partner">Delivery Partner</string>
+    <string name="available">Available</string>
+    <string name="unavailable">Unavailable</string>
+    <string name="assign_delivery_partner">Assign Delivery Partner</string>
+    <string name="no_delivery_partner_is_available">No Delivery Partner is available.</string>
+    <string name="refresh_delivery_partners">Refresh Delivery Partners</string>
+    <string name="select_delivery_partners_1">Are you sure you want request</string>
+    <string name="select_delivery_partners_2">to be the Delivery Partner for this order?</string>
+    <string name="delivery_address">Delivery Address</string>
+    <string name="delivery_status">Delivery Status - </string>
+    <string name="delivery_status_time">Delivery Status Time - </string>
+    <string name="delivery_charges_fixed_hint">Delivery Charges ($)</string>
+    <string name="delivery_charges_percent_hint">Delivery Charges (%)</string>
+    <string name="delivery_status_accepted">Delivery Partner Assigned</string>
+    <string name="delivery_partner_requested">has been requested for this order.</string>
+    <string name="delivery_status_canceled">Canceled</string>
+    <string name="cancellation_reason">Cancellation Reason - </string>
+    <string name="order_delivery_time_in_minutes">Order Delivery Time (In Minutes)</string>
+    <string name="IncompleteOrderErrMsg">You can\'t change the order status after it\'s Completed.</string>
+    <string name="CompleteOrderWithoutDPErrMsg">You can\'t change the order status Complete as it\'s not delivered yet.</string>
+    <string name="deliveryStatus_Delivered">Delivered</string>
+    <string name="update_settings">Update Settings</string>
+    <string name="please_enter_toi_to_update_the_settings">Please enter Secrete Key to update the settings.</string>
+    <string name="toi">MLR</string>
+    <string name="invalid_security_text">Security Text is invalid.</string>
+    <string name="header_broadcaster">HEADER_BROADCASTER</string>
+    <string name="header_image_url">header_image_url</string>
+</resources>

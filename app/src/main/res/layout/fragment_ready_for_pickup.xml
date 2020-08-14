@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.ReadyForPickupFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ordersRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" />
+<TextView
+    android:id="@+id/tv_noOrderFound"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="@string/no_record"
+    android:gravity="center"
+    android:textSize="20sp"
+    android:visibility="gone"
+    />
+</FrameLayout>

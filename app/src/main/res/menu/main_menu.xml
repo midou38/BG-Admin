@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<item-->
+        <!--android:id="@+id/orderTypeSwitch"-->
+        <!--android:actionLayout="@layout/switch_layout"-->
+        <!--android:title="@string/order_type"-->
+        <!--android:visible="false"-->
+        <!--app:showAsAction="never" />-->
+
+    <item
+        android:id="@+id/refresh"
+        android:icon="@drawable/ic_refresh"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:title="@string/refresh_orders"
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/bluetooth"
+        android:icon="@drawable/ic_bluetooth_disconnect"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:title="@string/conncet_printer"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/orderFilter"
+        android:icon="@drawable/ic_filter"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:title="@string/filter_orders"
+        app:showAsAction="always"
+        android:visible="false" />
+
+
+</menu>
